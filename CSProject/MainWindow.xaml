@@ -39,14 +39,12 @@
 
 
                 <Border Grid.Column="1" CornerRadius="20" Background="White" Opacity="0.75"/>
-                <TextBlock Grid.Column="1"
+            <TextBlock Grid.Column="1"
                         Text="service screen" 
                         FontSize="40"
                         TextAlignment="Center">
-                </TextBlock>
-
-                
-            </Grid>
+            </TextBlock>
+        </Grid>
 
         <Grid Grid.Row="1" Margin="25">
             <Grid.ColumnDefinitions>
