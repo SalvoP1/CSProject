@@ -13,40 +13,19 @@
         Width="800">
 
 
-    <Grid> <!--Background Linear Gradient-->
+    <Grid>
         <Grid.Background>
-            <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
-                <GradientStop Color="#000000"   Offset="0.15"/>
-                <GradientStop Color="#FF884B00" Offset="0.5"/>
-                <GradientStop Color="#FF02045B" Offset="1.0"/>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#000000" Offset="0"/>
+                <GradientStop Color="#5A082D" Offset="0.25"/>
+                <GradientStop Color="#032254" Offset="0.5"/>
+                <GradientStop Color="#5A082D" Offset="0.75"/>
+                <GradientStop Color="#000000" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-     
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="6*"/>
-        </Grid.RowDefinitions>
-        
-            <Border Grid.Row="1" Background="Black" Height="2" VerticalAlignment="Top"/>
-        
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
 
-
-
-                <Border Grid.Column="1" CornerRadius="20" Background="White" Opacity="0.75"/>
-            <TextBlock Grid.Column="1"
-                        Text="service screen" 
-                        FontSize="40"
-                        TextAlignment="Center">
-            </TextBlock>
-        </Grid>
-
-        <Grid Grid.Row="1" Margin="25">
+        <Grid Margin="25">
+            <!-- Columns -->
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
@@ -59,16 +38,83 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
+            <!-- Rows -->
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            
-            
+
+            <!-- Service Screen -->
+            <Border Margin="10" Grid.Column="3" Grid.ColumnSpan="4" 
+            Background="#fddeff"
+            CornerRadius="50"
+            BorderThickness="4"
+            BorderBrush="Black">
+                <TextBlock 
+                    Text="Service Screen"
+                    TextWrapping="Wrap"
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Center" 
+                    FontSize="28">
+                </TextBlock>
+            </Border>
+
+            <!-- Settings Button -->
+            <Border Margin="10" Grid.Column="0" Grid.ColumnSpan="3" 
+            Background="#fddeff"
+            CornerRadius="50"
+            BorderThickness="4"
+            BorderBrush="Black">
+                <TextBlock 
+                    Text="Settings"
+                    TextWrapping="Wrap"
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Center" 
+                    FontSize="28">
+                </TextBlock>
+            </Border>
+
+            <!-- Real Time -->
+            <Border Margin="10" Grid.Column="7" Grid.ColumnSpan="3" 
+            Background="#fddeff"
+            CornerRadius="50"
+            BorderThickness="4"
+            BorderBrush="Black">
+                <TextBlock 
+                Text="Time"
+                TextWrapping="Wrap"
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center" 
+                FontSize="28">
+                </TextBlock>
+            </Border>
+
+
+            <Button x:Name="Table_1" Grid.Column="0" Grid.Row="2" FontSize="25" Content="1"/>
+            <Button x:Name="Table_2" Grid.Column="1" Grid.Row="2" FontSize="25" Content="2"/>
+            <Button x:Name="Table_3" Grid.Column="2" Grid.Row="2" FontSize="25" Content="3"/>
+            <Button x:Name="Table_4" Grid.Column="3" Grid.Row="2" FontSize="25" Content="4"/>
+            <Button x:Name="Table_5" Grid.Column="4" Grid.Row="2" FontSize="25" Content="5"/>
+            <Button x:Name="Table_6" Grid.Column="5" Grid.Row="2" FontSize="25" Content="6"/>
+            <Button x:Name="Table_7" Grid.Column="6" Grid.Row="2" FontSize="25" Content="7"/>
+            <Button x:Name="Table_8" Grid.Column="7" Grid.Row="2" FontSize="25" Content="8"/>
+            <Button x:Name="Table_9" Grid.Column="8" Grid.Row="2" FontSize="25" Content="9"/>
+            <Button x:Name="Table_10" Grid.Column="9" Grid.Row="2" FontSize="25" Content="10"/>
+            <Button x:Name="Table_11" Grid.Column="0" Grid.Row="3" FontSize="25" Content="11"/>
+            <Button x:Name="Table_12" Grid.Column="1" Grid.Row="3" FontSize="25" Content="12"/>
+            <Button x:Name="Table_13" Grid.Column="2" Grid.Row="3" FontSize="25" Content="13"/>
+            <Button x:Name="Table_14" Grid.Column="3" Grid.Row="3" FontSize="25" Content="14"/>
+            <Button x:Name="Table_15" Grid.Column="4" Grid.Row="3" FontSize="25" Content="15"/>
+            <Button x:Name="Table_16" Grid.Column="5" Grid.Row="3" FontSize="25" Content="16"/>
+            <Button x:Name="Table_17" Grid.Column="6" Grid.Row="3" FontSize="25" Content="17"/>
+            <Button x:Name="Table_18" Grid.Column="7" Grid.Row="3" FontSize="25" Content="18"/>
+            <Button x:Name="Table_19" Grid.Column="8" Grid.Row="3" FontSize="25" Content="19"/>
+            <Button x:Name="Table_20" Grid.Column="9" Grid.Row="3" FontSize="25" Content="20"/>
+
         </Grid>
-        
     </Grid>
-        
 </Window>
