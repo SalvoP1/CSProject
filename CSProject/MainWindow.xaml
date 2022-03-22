@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:CSProject"
         mc:Ignorable="d"
         WindowState="Maximized" 
-        WindowStyle="ToolWindow"
+        WindowStyle="None"
         AllowsTransparency="True"
         Title="Service Screen" 
         Height="500"
@@ -14,6 +14,7 @@
 
 
     <Grid>
+        <!-- Background -->
         <Grid.Background>
             <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                 <GradientStop Color="#000000" Offset="0"/>
