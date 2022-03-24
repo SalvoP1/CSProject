@@ -86,11 +86,11 @@
             BorderThickness="4"
             BorderBrush="Black">
                 <TextBlock 
-                Text="Time"
-                TextWrapping="Wrap"
-                HorizontalAlignment="Center" 
-                VerticalAlignment="Center" 
-                FontSize="28">
+                    Text="Time"
+                    TextWrapping="Wrap"
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Center" 
+                    FontSize="28">
                 </TextBlock>
             </Border>
 

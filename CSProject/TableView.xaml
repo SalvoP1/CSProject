@@ -32,6 +32,7 @@
             <!-- Rows -->
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
                 <RowDefinition Height="5*"/>
             </Grid.RowDefinitions>
             
@@ -81,7 +82,7 @@
             </Border>
             
             <!-- Guests -->
-            <Grid Grid.ColumnSpan="3" Grid.Row="2">
+            <Grid Grid.ColumnSpan="3" Grid.Row="1"   Grid.RowSpan="2">
                 
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
@@ -95,13 +96,28 @@
                 <!-- Rows -->
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="2*"/>
                 </Grid.RowDefinitions>
                 
+                <!-- -->
+                <Border Grid.ColumnSpan="6" Grid.Row="0" Grid.Column="0" Background="LightGray"  CornerRadius="10"/>
                 
                 
+                <!-- Person Buttons -->
+                <Button x:Name="Person_1" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" FontSize="25">
+                    <Image Source="https://cdn.discordapp.com/attachments/632532634051805185/956454543741321226/default_user_male.png"/>
+                </Button>
+                <Button x:Name="Person_2" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" FontSize="25">
+                    <Image Source="https://cdn.discordapp.com/attachments/632532634051805185/956451346712772648/default_user_female.png"/>
+                </Button>
+                <Button x:Name="Person_3" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" FontSize="25">
+                    <Image Source="https://cdn.discordapp.com/attachments/632532634051805185/956454543741321226/default_user_male.png"/>
+                </Button>
                 
+                
+
             </Grid>
         </Grid>
     </Grid>
