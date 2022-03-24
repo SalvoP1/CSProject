@@ -10,7 +10,7 @@
 
 
     <Grid>
-        <!-- Background -->
+        <!-- Panel Background -->
         <Grid.Background>
             <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                 <GradientStop Color="#000000" Offset="0"/>
@@ -58,7 +58,7 @@
                 BorderThickness="4"
                 BorderBrush="Black">
                 <TextBlock 
-                    Text="Table #"
+                    Text="Tisch #"
                     TextWrapping="Wrap"
                     HorizontalAlignment="Center" 
                     VerticalAlignment="Center" 
@@ -84,35 +84,55 @@
             <!-- Guests -->
             <Grid Grid.ColumnSpan="3" Grid.Row="1"   Grid.RowSpan="2">
                 
+                <!-- Columns -->
                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="5"/>
                     <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="5"/>
                     <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="5"/>
                     <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="5"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
                 <!-- Rows -->
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
+                    <RowDefinition Height="5"/>
                     <RowDefinition Height="2*"/>
+                    <RowDefinition Height="5"/>
                     <RowDefinition Height="2*"/>
+                    <RowDefinition Height="5"/>
                     <RowDefinition Height="2*"/>
                 </Grid.RowDefinitions>
+
+
+                <!-- LightGray Background Border -->
+                <Border Grid.ColumnSpan="9" Grid.Column="0" Grid.Row="0" Grid.RowSpan="7" CornerRadius="20" Background="LightGray"/>
+
+                <!-- Horizontal Separator Lines -->
+                <Border Grid.ColumnSpan="9" Grid.Row="1" Background="Black" BorderThickness="1"/>
+                <Border Grid.ColumnSpan="9" Grid.Row="3" Background="Black" BorderThickness="1"/>
+                <Border Grid.ColumnSpan="9" Grid.Row="5" Background="Black" BorderThickness="1"/>
                 
-                <!-- -->
-                <Border Grid.ColumnSpan="6" Grid.Row="0" Grid.Column="0" Background="LightGray"  CornerRadius="10"/>
-                
-                
+                <!-- Vertical Separator Lines -->
+                <Border Grid.Column="1" Grid.RowSpan="7" Background="Black" BorderThickness="1"/>
+                <Border Grid.Column="3" Grid.RowSpan="7" Background="Black" BorderThickness="1"/>
+                <Border Grid.Column="5" Grid.RowSpan="7" Background="Black" BorderThickness="1"/>
+                <Border Grid.Column="7" Grid.RowSpan="7" Background="Black" BorderThickness="1"/>
+
+                <Label Grid.Column="2" Content="Vorspeise" FontSize="25"/>
+
                 <!-- Person Buttons -->
-                <Button x:Name="Person_1" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" FontSize="25">
+                <Button x:Name="Person_1" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Margin="5" Background="LightGray" BorderThickness="0">
                     <Image Source="https://cdn.discordapp.com/attachments/632532634051805185/956454543741321226/default_user_male.png"/>
                 </Button>
-                <Button x:Name="Person_2" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" FontSize="25">
+                <Button x:Name="Person_2" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2" Margin="5" Background="LightGray" BorderThickness="0">
                     <Image Source="https://cdn.discordapp.com/attachments/632532634051805185/956451346712772648/default_user_female.png"/>
                 </Button>
-                <Button x:Name="Person_3" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" FontSize="25">
+                <Button x:Name="Person_3" Grid.Column="0" Grid.Row="6" Grid.ColumnSpan="2" Margin="5" Background="LightGray" BorderThickness="0">
                     <Image Source="https://cdn.discordapp.com/attachments/632532634051805185/956454543741321226/default_user_male.png"/>
                 </Button>
                 
