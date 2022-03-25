@@ -8,7 +8,23 @@
              d:DesignHeight="450" 
              d:DesignWidth="800">
 
+    <UserControl.Resources>
 
+        <Style x:Key="Control_Buttons" TargetType="Button">
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="#fddeff" CornerRadius="50" BorderThickness="4" BorderBrush="Black" Margin="5">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        
+    </UserControl.Resources>
+    
     <Grid>
         <!-- Background View -->
         <Grid.Background>
@@ -37,52 +53,31 @@
             </Grid.RowDefinitions>
             
             <!-- Homebutton -->
-            <Border Margin="10" Grid.Column="0" 
-                Background="#fddeff"
-                CornerRadius="50"
-                BorderThickness="4"
-                BorderBrush="Black">
-                <TextBlock 
-                    Text="Home"
-                    TextWrapping="Wrap"
-                    HorizontalAlignment="Center" 
-                    VerticalAlignment="Center" 
-                    FontSize="32">
-                </TextBlock>
-            </Border>
+            <Button x:Name="Homebutton"
+                Click="returnButton_Click"
+                Style="{StaticResource Control_Buttons}" 
+                Grid.Column="0" 
+                Content="Home">
+            </Button>
 
-            <!-- Table -->
-            <Border Margin="10" Grid.Column="1" 
-                Background="#fddeff"
-                CornerRadius="50"
-                BorderThickness="4"
-                BorderBrush="Black">
-                <TextBlock 
-                    Text="Tisch #"
-                    TextWrapping="Wrap"
-                    HorizontalAlignment="Center" 
-                    VerticalAlignment="Center" 
-                    FontSize="32">
-                </TextBlock>
-            </Border>
+            <!-- Table Title -->
+            <Button x:Name="TableTitle"
+                Style="{StaticResource Control_Buttons}" 
+                Grid.Column="1" 
+                Content="Table #">
+            </Button>
 
-            <!-- Returnbutton -->
-            <Border Margin="10" Grid.Column="2" 
-                Background="#fddeff"
-                CornerRadius="50"
-                BorderThickness="4"
-                BorderBrush="Black">
-                <TextBlock 
-                    Text="Back"
-                    TextWrapping="Wrap"
-                    HorizontalAlignment="Center" 
-                    VerticalAlignment="Center" 
-                    FontSize="32">
-                </TextBlock>
-            </Border>
-            
+            <!-- Return Button -->
+            <Button x:Name="returnButton"
+                Click="returnButton_Click"
+                Style="{StaticResource Control_Buttons}" 
+                Grid.Column="2" 
+                Content="Return">
+            </Button>
+
+
             <!-- Guest´s Grid -->
-            <Grid Grid.ColumnSpan="3" Grid.Row="1"   Grid.RowSpan="2">
+            <Grid Grid.ColumnSpan="3" Grid.Row="1" Grid.RowSpan="2">
                 
                 <!-- Columns -->
                 <Grid.ColumnDefinitions>

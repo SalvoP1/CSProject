@@ -11,7 +11,8 @@
         Width="800">
     
     <Grid>
-        <local:TableView x:Name="TableView" Visibility="Collapsed"/>
+        
+        <local:TableView x:Name="TableView" Visibility="Collapsed" Back="TableView_back"/>
         
     <Grid x:Name="MainGrid" Visibility="Visible">
         <!-- Background -->
@@ -64,7 +65,7 @@
                 </TextBlock>
             </Border>
 
-            <!-- Settings Button -->
+            <!-- Settings Button #Useless at the time -->
             <Border Margin="10" Grid.Column="0" Grid.ColumnSpan="3" 
             Background="#fddeff"
             CornerRadius="50"
@@ -86,6 +87,7 @@
             BorderThickness="4"
             BorderBrush="Black">
                 <TextBlock 
+                    Name="Clock"
                     Text="Time"
                     TextWrapping="Wrap"
                     HorizontalAlignment="Center" 
