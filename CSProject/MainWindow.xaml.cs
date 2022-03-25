@@ -22,7 +22,13 @@ namespace CSProject
         {
             InitializeComponent();
 
-            
+
+        }
+
+        private void ChangeToTableView(object sender, RoutedEventArgs e)
+        {
+            MainGrid.Visibility = Visibility.Collapsed;
+            TableView.Visibility = Visibility.Visible;
         }
     }
 }
