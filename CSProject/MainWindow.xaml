@@ -6,8 +6,6 @@
         xmlns:local="clr-namespace:CSProject"
         mc:Ignorable="d"
         WindowState="Maximized" 
-        WindowStyle="None"
-        AllowsTransparency="True"
         Title="Service Screen" 
         Height="500"
         Width="800">

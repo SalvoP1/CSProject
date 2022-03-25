@@ -47,7 +47,7 @@
                     TextWrapping="Wrap"
                     HorizontalAlignment="Center" 
                     VerticalAlignment="Center" 
-                    FontSize="28">
+                    FontSize="32">
                 </TextBlock>
             </Border>
 
@@ -62,7 +62,7 @@
                     TextWrapping="Wrap"
                     HorizontalAlignment="Center" 
                     VerticalAlignment="Center" 
-                    FontSize="28">
+                    FontSize="32">
                 </TextBlock>
             </Border>
 
@@ -77,7 +77,7 @@
                     TextWrapping="Wrap"
                     HorizontalAlignment="Center" 
                     VerticalAlignment="Center" 
-                    FontSize="28">
+                    FontSize="32">
                 </TextBlock>
             </Border>
             
@@ -124,10 +124,10 @@
                 <Border Grid.Column="7" Grid.RowSpan="7" Background="Black" BorderThickness="1"/>
 
                 <!-- Description bar -->
-                <Label Grid.Column="2" Content="Vorspeise" FontSize="22" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <Label Grid.Column="4" Content="1. Gang" FontSize="22" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <Label Grid.Column="6" Content="2. Gang" FontSize="22" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <Label Grid.Column="8" Content="Nachspeise" FontSize="22" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label Grid.Column="2" Content="Vorspeise" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label Grid.Column="4" Content="1. Gang" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label Grid.Column="6" Content="2. Gang" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label Grid.Column="8" Content="Nachspeise" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
                 <!-- Person Icons -->
                 <Button x:Name="Person_1" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Margin="5" Background="LightGray" BorderThickness="0">
@@ -141,22 +141,22 @@
                 </Button>
 
                 <!-- First Person´s Order -->
-                <ComboBox x:Name="Vorspeise_1" Height="30" Grid.Column="2" Grid.Row="2" MinHeight="95" FontSize="2" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-                <ComboBox x:Name="Gang_1_1" Height="30" Grid.Column="4" Grid.Row="2" MinHeight="95" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-                <ComboBox x:Name="Gang_2_1" Height="30" Grid.Column="6" Grid.Row="2" MinHeight="95" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-                <ComboBox x:Name="Nachspeise_1" Height="30" Grid.Column="8" Grid.Row="2" MinHeight="95" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                <ComboBox x:Name="Vorspeise_1" Height="30" Grid.Column="2" Grid.Row="2" MinHeight="95" FontSize="22" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                <ComboBox x:Name="Gang_1_1" Height="30" Grid.Column="4" Grid.Row="2" MinHeight="95" FontSize="22" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                <ComboBox x:Name="Gang_2_1" Height="30" Grid.Column="6" Grid.Row="2" MinHeight="95" FontSize="22" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                <ComboBox x:Name="Nachspeise_1" Height="30" Grid.Column="8" Grid.Row="2" MinHeight="95" FontSize="22" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
 
                 <!-- Second Person´s Order -->
-                <ComboBox x:Name="Vorspeise_2" Height="30" Grid.Column="2" Grid.Row="4" MinHeight="95" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-                <ComboBox x:Name="Gang_1_2" Height="30" Grid.Column="4" Grid.Row="4" MinHeight="95" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-                <ComboBox x:Name="Gang_2_2" Height="30" Grid.Column="6" Grid.Row="4" MinHeight="95" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-                <ComboBox x:Name="Nachspeise_2" Height="30" Grid.Column="8" Grid.Row="4" MinHeight="95" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                <ComboBox x:Name="Vorspeise_2" Height="30" Grid.Column="2" Grid.Row="4" MinHeight="95" FontSize="22" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                <ComboBox x:Name="Gang_1_2" Height="30" Grid.Column="4" Grid.Row="4" MinHeight="95" FontSize="22" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                <ComboBox x:Name="Gang_2_2" Height="30" Grid.Column="6" Grid.Row="4" MinHeight="95" FontSize="22" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                <ComboBox x:Name="Nachspeise_2" Height="30" Grid.Column="8" Grid.Row="4" MinHeight="95" FontSize="22" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
                
                 <!-- Third Person´s Order -->
-                <ComboBox x:Name="Vorspeise_3" Height="30" Grid.Column="2" Grid.Row="6" MinHeight="95" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-                <ComboBox x:Name="Gang_1_3" Height="30" Grid.Column="4" Grid.Row="6" MinHeight="95" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-                <ComboBox x:Name="Gang_2_3" Height="30" Grid.Column="6" Grid.Row="6" MinHeight="95" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-                <ComboBox x:Name="Nachspeise_3" Height="30" Grid.Column="8" Grid.Row="6" MinHeight="95" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                <ComboBox x:Name="Vorspeise_3" Height="30" Grid.Column="2" Grid.Row="6" MinHeight="95" FontSize="22" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                <ComboBox x:Name="Gang_1_3" Height="30" Grid.Column="4" Grid.Row="6" MinHeight="95" FontSize="22" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                <ComboBox x:Name="Gang_2_3" Height="30" Grid.Column="6" Grid.Row="6" MinHeight="95" FontSize="22" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                <ComboBox x:Name="Nachspeise_3" Height="30" Grid.Column="8" Grid.Row="6" MinHeight="95" FontSize="22" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
 
             </Grid>
         </Grid>
