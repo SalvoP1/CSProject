@@ -97,26 +97,26 @@
             </Border>
 
 
-            <Button x:Name="Table_1" Click="ChangeToTableView" Grid.Column="0" Grid.Row="2" FontSize="25" Content="1"/>
-            <Button x:Name="Table_2" Click="ChangeToTableView" Grid.Column="1" Grid.Row="2" FontSize="25" Content="2"/>
-            <Button x:Name="Table_3" Click="ChangeToTableView" Grid.Column="2" Grid.Row="2" FontSize="25" Content="3"/>
-            <Button x:Name="Table_4" Click="ChangeToTableView" Grid.Column="3" Grid.Row="2" FontSize="25" Content="4"/>
-            <Button x:Name="Table_5" Click="ChangeToTableView" Grid.Column="4" Grid.Row="2" FontSize="25" Content="5"/>
-            <Button x:Name="Table_6" Click="ChangeToTableView" Grid.Column="5" Grid.Row="2" FontSize="25" Content="6"/>
-            <Button x:Name="Table_7" Click="ChangeToTableView" Grid.Column="6" Grid.Row="2" FontSize="25" Content="7"/>
-            <Button x:Name="Table_8" Click="ChangeToTableView" Grid.Column="7" Grid.Row="2" FontSize="25" Content="8"/>
-            <Button x:Name="Table_9" Click="ChangeToTableView" Grid.Column="8" Grid.Row="2" FontSize="25" Content="9"/>
-            <Button x:Name="Table_10" Click="ChangeToTableView" Grid.Column="9" Grid.Row="2" FontSize="25" Content="10"/>
-            <Button x:Name="Table_11" Click="ChangeToTableView" Grid.Column="0" Grid.Row="3" FontSize="25" Content="11"/>
-            <Button x:Name="Table_12" Click="ChangeToTableView" Grid.Column="1" Grid.Row="3" FontSize="25" Content="12"/>
-            <Button x:Name="Table_13" Click="ChangeToTableView" Grid.Column="2" Grid.Row="3" FontSize="25" Content="13"/>
-            <Button x:Name="Table_14" Click="ChangeToTableView" Grid.Column="3" Grid.Row="3" FontSize="25" Content="14"/>
-            <Button x:Name="Table_15" Click="ChangeToTableView" Grid.Column="4" Grid.Row="3" FontSize="25" Content="15"/>
-            <Button x:Name="Table_16" Click="ChangeToTableView" Grid.Column="5" Grid.Row="3" FontSize="25" Content="16"/>
-            <Button x:Name="Table_17" Click="ChangeToTableView" Grid.Column="6" Grid.Row="3" FontSize="25" Content="17"/>
-            <Button x:Name="Table_18" Click="ChangeToTableView" Grid.Column="7" Grid.Row="3" FontSize="25" Content="18"/>
-            <Button x:Name="Table_19" Click="ChangeToTableView" Grid.Column="8" Grid.Row="3" FontSize="25" Content="19"/>
-            <Button x:Name="Table_20" Click="ChangeToTableView" Grid.Column="9" Grid.Row="3" FontSize="25" Content="20"/>
+            <Button Click="ChangeToTableView" Grid.Column="0" Grid.Row="2" FontSize="25" Content="1"/>
+            <Button Click="ChangeToTableView" Grid.Column="1" Grid.Row="2" FontSize="25" Content="2"/>
+            <Button Click="ChangeToTableView" Grid.Column="2" Grid.Row="2" FontSize="25" Content="3"/>
+            <Button Click="ChangeToTableView" Grid.Column="3" Grid.Row="2" FontSize="25" Content="4"/>
+            <Button Click="ChangeToTableView" Grid.Column="4" Grid.Row="2" FontSize="25" Content="5"/>
+            <Button Click="ChangeToTableView" Grid.Column="5" Grid.Row="2" FontSize="25" Content="6"/>
+            <Button Click="ChangeToTableView" Grid.Column="6" Grid.Row="2" FontSize="25" Content="7"/>
+            <Button Click="ChangeToTableView" Grid.Column="7" Grid.Row="2" FontSize="25" Content="8"/>
+            <Button Click="ChangeToTableView" Grid.Column="8" Grid.Row="2" FontSize="25" Content="9"/>
+            <Button Click="ChangeToTableView" Grid.Column="9" Grid.Row="2" FontSize="25" Content="10"/>
+            <Button Click="ChangeToTableView" Grid.Column="0" Grid.Row="3" FontSize="25" Content="11"/>
+            <Button Click="ChangeToTableView" Grid.Column="1" Grid.Row="3" FontSize="25" Content="12"/>
+            <Button Click="ChangeToTableView" Grid.Column="2" Grid.Row="3" FontSize="25" Content="13"/>
+            <Button Click="ChangeToTableView" Grid.Column="3" Grid.Row="3" FontSize="25" Content="14"/>
+            <Button Click="ChangeToTableView" Grid.Column="4" Grid.Row="3" FontSize="25" Content="15"/>
+            <Button Click="ChangeToTableView" Grid.Column="5" Grid.Row="3" FontSize="25" Content="16"/>
+            <Button Click="ChangeToTableView" Grid.Column="6" Grid.Row="3" FontSize="25" Content="17"/>
+            <Button Click="ChangeToTableView" Grid.Column="7" Grid.Row="3" FontSize="25" Content="18"/>
+            <Button Click="ChangeToTableView" Grid.Column="8" Grid.Row="3" FontSize="25" Content="19"/>
+            <Button Click="ChangeToTableView" Grid.Column="9" Grid.Row="3" FontSize="25" Content="20"/>
 
         </Grid>
     </Grid>

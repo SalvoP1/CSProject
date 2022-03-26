@@ -21,7 +21,6 @@ namespace CSProject
     {
 
         Tische[] Tische = new Tische[20];
-        System.Timers.Timer EchtZeit;
 
         public MainWindow()
         {
@@ -46,7 +45,6 @@ namespace CSProject
             {
                 Tische[i] = new Tische() { TischNr = i + 1 };
             }
-            System.Diagnostics.Debug.WriteLine("Ein guter Hurensohn");
         }
 
 
@@ -71,7 +69,6 @@ namespace CSProject
         private void OnTimedEvent(Object Source, System.Timers.ElapsedEventArgs e)
         {
             Clock.Text = DateTime.Now.ToString("HH:mm");
-            System.Diagnostics.Debug.WriteLine("Ein guter Hurensohn");
         }
     }
 }
